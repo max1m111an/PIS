@@ -33,7 +33,7 @@ function calculateArea(width, height){
   return area
 }
 console.log(calculateArea(14, 9))
-//console.log(area)
+//console.log(area) // err
 
 // --- Средний уровень ---
 
@@ -44,12 +44,11 @@ if (true) {
   let blockVar = "значение внутри блока";
   console.log(blockVar);
 }
-//console.log(blockVar)
 
 // Допишите (и сразу закомментируйте) строку console.log(blockVar)
 // СНАРУЖИ блока if. В выводах результата в отчёте объясните, что произойдёт при
 // попытке раскомментировать эту строку и почему.
-
+//console.log(blockVar) // err
 
 // TODO 4: Утечка var из блока
 // Раскомментируйте код ниже и запустите

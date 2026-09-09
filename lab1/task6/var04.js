@@ -93,5 +93,5 @@ function outer() {
   return inner;
 }
 const revealSecret = outer();
-// console.log(secret);
+//console.log(secret); // err
 revealSecret();
